@@ -3,10 +3,14 @@ import PIL
 import os
 import glob
 
-conversion_format = "webp" # format to convert images into
-originals_dir = "originals/" # directory of the original images
-converted_dir = "webp/" # directory to store new images 
-compression_quality = 50 # level of compression
+# format to convert images into
+conversion_format = ""
+# directory of the original images
+originals_dir = ""
+# directory to store new images
+converted_dir = "" 
+# level of compression
+compression_quality = 50
 
 files = os.listdir(originals_dir)
 
