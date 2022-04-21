@@ -2,26 +2,26 @@
 
 
 ## Setup
-All configuration can be found in convert.py
+All configuration can be found in constants.py
 
 Set the conversion file extension e.g. WEBP
 ```
-conversion_format = ""
+CONVERSION_FILETYPE = ""
 ```
 
 Set the directory where all original images are stored
 ```
-originals_dir = ""
+ORIGINAL_FILES_DIR = ""
 ```
 
 Set the destination directory to store the converted images
 ```
-converted_dir = ""
+CONVERTED_FILES_DIR = ""
 ```
 
 Set the compression quality level
 ```
-compression_quality = 50
+CONVERSION_COMPRESSION_QUALITY = 50
 ```
 
 ## Usage
