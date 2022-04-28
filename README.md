@@ -27,5 +27,9 @@ CONVERSION_COMPRESSION_QUALITY = 50
 ## Usage
 From the root of the directory run:
 ```
-python3 convert.py
+python3 python/convert.py
+```
+Or
+```
+php php/convert.php
 ```
