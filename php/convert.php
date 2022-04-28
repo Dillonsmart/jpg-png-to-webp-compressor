@@ -39,8 +39,9 @@ foreach($files as $file) {
 
 }
 
-function is_allowed($file) {
-    if(substr($file, 0, 1) === '.') {
+function is_allowed($file): bool
+{
+    if(str_starts_with($file, '.')) {
         return false;
     }
 
