@@ -1,35 +1,17 @@
 # Convert and compress PNG, JPG or JPEG to WEBP
 
-
 ## Setup
-All configuration can be found in constants.py
-
-Set the conversion file extension e.g. WEBP
-```
-CONVERSION_FILETYPE = ""
-```
-
-Set the directory where all original images are stored
-```
-ORIGINAL_FILES_DIR = ""
-```
-
-Set the destination directory to store the converted images
-```
-CONVERTED_FILES_DIR = ""
-```
-
-Set the compression quality level
-```
-CONVERSION_COMPRESSION_QUALITY = 50
-```
+All configuration can be found in python/constants.py or php/constants.php depending on which language you are using. 
 
 ## Usage
-From the root of the directory run:
+From the root directory run either of the below commands, depending on which language you are using.
+
+### Python 3
 ```
 python3 python/convert.py
 ```
-Or
+
+### PHP 8
 ```
 php php/convert.php
 ```
