@@ -31,6 +31,6 @@ def is_supported_file_type(file):
 for f in files:
     if(is_supported_file_type(f)) :
         print("Converting " + f + " into " + constants.CONVERSION_FILETYPE + " format")
-        image = Image.open(constants.ORIGINAL_FILES_DIR + f).convert("RGB")
+        image = Image.open(constants.ORIGINAL_FILES_DIR + f).convert("RGBA")
         filename = f.split(".")
         image.save(constants.CONVERTED_FILES_DIR + filename[0] + '.' + constants.CONVERSION_FILETYPE, constants.CONVERSION_FILETYPE, optimize = True, quality = constants.CONVERSION_COMPRESSION_QUALITY)

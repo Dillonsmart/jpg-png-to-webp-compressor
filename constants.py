@@ -1,4 +1,4 @@
 CONVERSION_FILETYPE = "webp"
-CONVERSION_COMPRESSION_QUALITY = 50
-ORIGINAL_FILES_DIR = "absolute_path_to_directory"
-CONVERTED_FILES_DIR = "absolute_path_to_directory"
+CONVERSION_COMPRESSION_QUALITY = 75
+ORIGINAL_FILES_DIR = "/Users/dillonsmart/Desktop/VeterinaryITServices/"
+CONVERTED_FILES_DIR = "/Users/dillonsmart/Desktop/VeterinaryITServices/webp/"
